@@ -21,26 +21,28 @@ body {
 }
 h2 {
   font-weight: bold;
-  font-size: 30px;
+  font-size: 50px;
   margin-block: 0;
+  font-family: "Indie Flower";
 }
-p {
-  font-style: italic;
+span {
+  font-family: "Indie Flower";
+  font-size: 25px;
 }
 .yellow {
   background-image: linear-gradient(rgb(234, 235, 180), rgb(147, 149, 31));
   transform: rotate(355deg);
-  transition: transform, 1s;
+  transition: transform, 300ms;
 }
 .green {
   background-image: linear-gradient(rgb(188, 226, 189), rgb(121, 123, 121));
   transform: rotate(5deg);
-  transition: transform, 1s;
+  transition: transform, 300ms;
 }
 .cartadazucchero {
   background-image: linear-gradient(rgb(193, 194, 235), rgb(43, 44, 73));
   transform: rotate(358deg);
-  transition: transform, 1s;
+  transition: transform, 300ms;
 }
 .yellow:hover {
   transform: scale(1.2);
